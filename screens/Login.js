@@ -54,9 +54,7 @@ function Login() {
       style={styles.container}
       behavior="padding"
     >
-      <Text className="font-extrabold text-2xl text-white mb-5">
-        Log In to get started!{" "}
-      </Text>
+      <Text className="font-extrabold text-2xl text-white mb-5">Log In ! </Text>
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Email"

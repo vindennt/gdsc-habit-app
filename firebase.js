@@ -2,18 +2,19 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import firebase from "firebase/compat/app";
+import { initializeApp } from "firebase/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCTp-Gx5UZSBJKcvkHeIxc2K5N9Aq3ocYg",
-  authDomain: "habittracker-59231.firebaseapp.com",
-  projectId: "habittracker-59231",
-  storageBucket: "habittracker-59231.appspot.com",
-  messagingSenderId: "404079753933",
-  appId: "1:404079753933:web:ce8341748e1949ebfbc784",
+  apiKey: "AIzaSyBH2nZQdYbZvXTM59UPk_ZVD-z4CuXs-kA",
+  authDomain: "habittracker-25e78.firebaseapp.com",
+  projectId: "habittracker-25e78",
+  storageBucket: "habittracker-25e78.appspot.com",
+  messagingSenderId: "671237119334",
+  appId: "1:671237119334:web:8272ad83dc3169786c7ca7",
 };
 
 // Initialize Firebase
