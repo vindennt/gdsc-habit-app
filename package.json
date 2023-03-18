@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "dev": "npm run && cd server"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.3",
@@ -18,7 +19,7 @@
     "bootstrap": "^5.2.3",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
-    "firebase": "9.17.2",
+    "firebase": "^9.17.2",
     "nativewind": "^2.0.11",
     "react": "18.1.0",
     "react-bootstrap": "^2.7.0",
